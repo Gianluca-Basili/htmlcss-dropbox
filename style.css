@@ -1,3 +1,73 @@
-h1{
-    color: red;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+/*inizio header*/
+
+.container{
+    width: 100%;
+    
+    
+}
+/*row header*/
+.row{
+    display: flex;
+}
+
+/*column left header*/
+.left{
+    width: calc(100% / 2);
+   
+    background-color: red;
+}
+
+/*column right header*/
+.right{
+    width: calc(100% / 2);
+    height: 100px;
+    background-color: yellow;
+}
+/*fine header*/
+
+/*inizio jumbotron*/
+.container-jumbotron{
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+    background-color: aqua;
+}
+
+
+.row-jumbotron{
+    display: flex;
+}
+
+.col-full-jumbotron{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.row-2-jumbotron{
+    display: flex;
+   
+}
+
+.col-left-jumbotron{
+    width: calc(100% / 2);
+    height: 50px;
+    background-color: green;
+}
+
+.col-right-jumbotron{
+    width: calc(100% / 2);
+    height: 50px;
+    background-color: grey;
+}
+
+
+/*fine jumbotron*/
+
+
