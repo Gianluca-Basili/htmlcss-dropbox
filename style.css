@@ -4,13 +4,30 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 /*inizio header*/
 
 .container{
     width: 100%;
     
-    
 }
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+    
+.img{
+ width: 85px;
+
+}
+
+
+    
 /*row header*/
 .row{
     display: flex;
@@ -19,15 +36,40 @@
 /*column left header*/
 .left{
     width: calc(100% / 2);
-   
-    background-color: red;
 }
+   
+   
 
 /*column right header*/
 .right{
     width: calc(100% / 2);
     height: 100px;
-    background-color: yellow;
+    
+}
+
+.content-header{
+    padding: 20px;
+    
+}
+
+.content-2-header{
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.botton-header{
+    padding: 5px;
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: rgba(0,97,255,255);
+    border: none;
+}
+
+
+.nav{
+    padding: 10px;
 }
 /*fine header*/
 
@@ -39,35 +81,93 @@
     background-color: aqua;
 }
 
-
+/*riga 1 jumbotron*/
 .row-jumbotron{
     display: flex;
 }
 
+
+/*titolo jumbotron*/
 .col-full-jumbotron{
     width: 100%;
     height: 50px;
     background-color: black;
 }
 
+
+/*riga 2 jumbotron*/
 .row-2-jumbotron{
     display: flex;
    
 }
 
+
+/*colonna sinistra jumbotron*/
 .col-left-jumbotron{
     width: calc(100% / 2);
     height: 50px;
     background-color: green;
 }
 
+
+/*colonna destra jumbotron*/
 .col-right-jumbotron{
     width: calc(100% / 2);
     height: 50px;
     background-color: grey;
 }
 
-
 /*fine jumbotron*/
+
+
+/*contenitore centrale con margini*/
+.container.centrale{
+    width: 75%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: coral;
+}
+
+.row-main-centrale{
+    display: flex;
+    
+}
+
+/*inizio colonne piano business*/
+.col-1{
+    width: calc(75% / 3);
+    height: 150px;
+    background-color: cornflowerblue;
+    margin-right: 40px;
+}
+
+.col-2{
+    width: calc(75% / 3);
+    height: 150px;
+    background-color: brown;
+    margin-right: 40px;
+
+}
+
+.col-3{
+    width: calc(75% / 3);
+    height: 150px;
+    background-color: darkslategray;
+}
+
+
+        
+.row-main-2-centrale{
+    display: flex;
+    margin-top: 80px;
+}
+
+
+.col-main-2-centrale{
+    width:100%;
+    height: 100px;
+    background-color: blueviolet;
+}
+    
 
 
